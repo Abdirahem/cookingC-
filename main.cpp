@@ -1,34 +1,25 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
-class Human{
-    public:
-        string name;
-        int age;
-    
-        void calling(){
-            cout<<"My name is "<<name<<" and I am "<<age<<" old."<<endl;
-        }
-
-};
 
 
 int main() {
 
-    Human male, female;
+    int arraySize = 0;
+   cout<<"Enter array size: "<<endl;
+   cin>> arraySize;
 
-    male.name = "Abdirahim";
-    male.age=29;
+   int* myArray = new int[arraySize];
 
-    male.calling();
+   for(int i=0; i<arraySize; i++)
+   {
+     myArray[i]=0;
 
-    cout<<"===================="<<endl;
+     cout<<"My array "<<i<<" : "<<myArray[i]<<endl;
 
-    female.name="Sahra";
-    female.age=20;
-    female.calling();
+   }
 
+   delete[] myArray;
     return 0;
 }
 

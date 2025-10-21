@@ -1,25 +1,47 @@
 #include <iostream>
 using namespace std;
 
+struct Stash {
 
+  std::string names[3];
+  int next = 0;  
+
+  void add(std::string value)
+  {
+    if(next<3)
+    {
+      names[next] = value;
+      next++;
+    }
+    else
+    {
+      std::cout<<"Stash is full\n";
+    }
+  }
+
+  void show()
+  {
+    for(int i=0; i<next; i++)
+    {
+      std::cout<<"Item "<<i<<": "<<names[i]<<std::endl;
+    }
+  }
+
+};
 
 int main() {
 
-    int arraySize = 0;
-   cout<<"Enter array size: "<<endl;
-   cin>> arraySize;
+ Stash myStash;
 
-   int* myArray = new int[arraySize];
+ myStash.add("Mohamed");
+ myStash.add("Ahmed");
+ myStash.add("Mustafa");
+ myStash.add("Sophia");
 
-   for(int i=0; i<arraySize; i++)
-   {
-     myArray[i]=0;
 
-     cout<<"My array "<<i<<" : "<<myArray[i]<<endl;
+ myStash.show();
 
-   }
-
-   delete[] myArray;
+  
     return 0;
 }
 

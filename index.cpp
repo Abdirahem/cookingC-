@@ -1,5 +1,11 @@
 #include <iostream>
 
+//#include 'mtools.h';
+
+#define newLine '\n'
+#define hem "my name is hem";
+
+
 class Profile{
     private:
         std::string name;
@@ -23,12 +29,15 @@ class Profile{
 
         void post()
         {
-            std::cout<<"You are posting.."<<name<<std::endl;
+            std::cout<<"You are posting.."<<name<<newLine;
+            std::cout<<hem
+
         }
 
         void deletePost()
         {
-            std::cout<<"Deleting post.."<<name<<std::endl;
+            std::cout<<"Deleting post.."<<name<<newLine;
+            std::cout<<hem
         }
 
 };

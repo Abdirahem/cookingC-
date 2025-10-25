@@ -29,14 +29,14 @@ class Profile{
         void post()
         {
             std::cout<<"You are posting.."<<name<<newLine;
-            std::cout<<hem
+          
 
         }
 
         void deletePost()
         {
             std::cout<<"Deleting post.."<<name<<newLine;
-            std::cout<<hem
+           
         }
 
 };

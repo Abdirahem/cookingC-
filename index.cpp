@@ -1,9 +1,8 @@
 #include <iostream>
 
-//#include 'mtools.h';
+#include "mtools.h"
 
-#define newLine '\n'
-#define hem "my name is hem";
+
 
 
 class Profile{

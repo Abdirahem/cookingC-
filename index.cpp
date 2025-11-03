@@ -38,7 +38,7 @@ public:
 int main()
 {
     // Create a Profile object
-    Profile p("John Doe");
+    Profile p("John Doee");
     
     // Call functions
     p.deletePost();

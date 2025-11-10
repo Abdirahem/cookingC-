@@ -36,7 +36,7 @@ int main()
         {
             std::cout << "Expression: " << line << std::endl;
 
-            // Use a stringstream to process the line and split by spaces
+            // Use a stringstream to process the line and split by spaces ------
             std::stringstream ss(line);
             int currentNum;
             char currentOp;

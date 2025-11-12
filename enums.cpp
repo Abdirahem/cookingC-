@@ -1,6 +1,6 @@
 #include<iostream>
 
-// A struct in C++ is a way to define a user-defined data type that can hold variables of different types.
+// A struct in C++ is a way to define a user-defined data type that can hold variables of different types. and alaso
 struct X
 {
     //An enum is a way to define a set of named integer constants.

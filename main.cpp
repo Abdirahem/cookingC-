@@ -23,7 +23,7 @@ struct Stash {
   {
     for(int i=0; i<next; i++)
     {
-      std::cout<<"Item "<<i<<": "<<names[i]<<std::endl;
+      std::cout<<"Items "<<i<<": "<<names[i]<<std::endl;
     }
   }
 

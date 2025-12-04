@@ -6,7 +6,7 @@ struct X
     //An enum is a way to define a set of named integer constants.
     /*left = 'l' assigns the character 'l' (which has an ASCII value of 108) to the name left.
     right = 'r' assigns the character 'r' (which has an ASCII value of 114) to the name right.*/
-    enum direction { left = 'l', right = 'r' };
+    enum direction { left = 'left', right = 'right' };
 };
 
 int main()

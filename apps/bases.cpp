@@ -18,7 +18,7 @@ string convertBase(int num, int base)
         num /=base;
     }
 
-    return result;
+    return result; // Return the converted number as a string
 }
 
 

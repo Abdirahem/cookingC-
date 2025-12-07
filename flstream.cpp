@@ -20,7 +20,7 @@ int main()
 
     if(file2.is_open())
     {
-        std::cout<<"File is open to read .."<<std::endl;
+        std::cout<<"File is open to read ..."<<std::endl;
         while (std::getline(file2, line))
         {
             std::cout<<line<<std::endl;

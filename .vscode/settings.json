@@ -40,5 +40,9 @@
         "variant": "cpp",
         "vector": "cpp",
         "fstream": "cpp"
-    }
+    },
+    "terminal.integrated.suggest.suggestOnTriggerCharacters": false,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.inlineSuggest.triggerCommandOnProviderChange": false,
+    "C_Cpp.intelliSenseEngine": "disabled"
 }

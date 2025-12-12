@@ -8,7 +8,7 @@ class League
 
 
    
-//Declare the operator<< as a friend function
+    //Declare the operator<< as a friend function
     friend std::ostream& operator<<(std::ostream& os, const League& league);
 
    

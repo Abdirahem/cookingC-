@@ -8,7 +8,7 @@ int main()
     std::ofstream file; // Writing
     std::ifstream file2; // Reading
 
-    // ------------------------------------- WRITE -------------------------------
+    // ------------------------------------- WRITE ----------------------
     file.open("example.txt");
     if (file.is_open())
     {
@@ -21,8 +21,7 @@ int main()
         return 1;
     }
 
-    // ----------------------------------------- READ ------------------------------
-    file2.open("example.txt");
+    // ----------------------------------------- READ ------------------
     std::string line;
     int result = 0;
     char op = '+'; // Start with addition
